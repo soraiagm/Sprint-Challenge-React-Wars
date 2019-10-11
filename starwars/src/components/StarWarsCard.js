@@ -1,21 +1,28 @@
 import React from "react";
-
+import {
+    Card, CardText, CardBody,
+    CardTitle, 
+  } from 'reactstrap';
 
 const StarWarsCard = (props) => {
     return (
-        <div className="star_wars_container" key={props.id}>
-            <h1>{props.name}</h1>
-                <img src= "1.jpg" alt="luke" />
-            <div className="character_info">
-                <p>height: {props.height}</p>
-                <p>Mass: {props.mass}</p>
-                <p>Hair color: {props.hair}</p>
-                <p>Skin color: {props.skin}</p>
+      <div className="star_wars_char" key={props}>
+        <Card key={props.id} >
+          {/* <CardImg top width="100%" src="/Images/1.jpg" alt="Card img" /> */}
+          <CardBody>
+            <CardTitle className="name">{props.name}</CardTitle>
+            <div>
+            <CardText>Height: {props.height}</CardText>
+            <CardText>Mass: {props.mass}</CardText>
+            <CardText>Hair color: {props.hair}</CardText>
+            <CardText>Skin Color: {props.skin}</CardText>
             </div>
-        </div>
+          </CardBody>
+        </Card>
+      </div>
     );
-}
-
-export default StarWarsCard;
+  };
+  
+  export default StarWarsCard;
 
 
