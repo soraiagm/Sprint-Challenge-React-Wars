@@ -25,14 +25,23 @@ In this challenge, create a web page that presents a styled list of Star Wars ch
 Demonstrate your understanding of this Sprint's concepts by answering the following free-form questions. Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager.
 
 - [ ] What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.
+        ReactJS is a library that is used to build large sclare applications. There are many other libraries but one of the benefits of ReactJS is that it is good for beginners because it leans you towards learning javascript. it's made of components where we write html and javascript and the benefit is that we can build components and then reuse these components.
 
 - [ ] What does it mean to _think_ in react?
+        Thinking in react is the thought process in breaking down an app or project you want to build in components. Drawing out what your component should look like so you can then plan on what components you will need and what subcomponents.
+
 
 - [ ] Describe state.
+        State is the current value of our data. State is our data.
 
 - [ ] Describe props.
+        Props is a way of passing down data from state from one component to another, a parent receives the data and then the child component by way of (props) can access this data as well, it's passed down from parent to child to grandchild, etc. 
+
 
 - [ ] What are side effects, and how do you sync effects in a React component to state or prop changes?
+        Side effects are what happens outside of the scope of the function that is being executed. When a state changes, such as manipulating the dom or fetching data, then that calls on that side effect to be executed with a callback function. 
+
+
 
 ## Project Set Up
 

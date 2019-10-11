@@ -5,6 +5,7 @@ const StarWarsCard = (props) => {
     return (
         <div className="star_wars_container" key={props.id}>
             <h1>{props.name}</h1>
+                <img src= "1.jpg" alt="luke" />
             <div className="character_info">
                 <p>height: {props.height}</p>
                 <p>Mass: {props.mass}</p>
