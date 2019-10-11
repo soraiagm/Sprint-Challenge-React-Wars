@@ -6,3 +6,32 @@
   text-shadow: 1px 1px 5px #fff;
 }
 /* write your parent styles in here for your App.js */
+
+.data_entry {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 100px;
+}
+
+.star_wars_char {
+  margin: 20px;
+  width: 200px;
+}
+
+.card {
+  background: #eb9e34;
+  font-size: 1.5rem;
+  border-radius: 25px;
+  box-shadow: 20px 20px 10px #544f47;
+}
+
+.Header {
+  font-weight: bold;
+  font-size: 5rem;
+  margin-top: 50px;
+}
+
+.name {
+  background-color: #d4ae79;
+  border-radius: 25px;
+}
